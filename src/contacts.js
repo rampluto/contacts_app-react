@@ -11,6 +11,12 @@ var Contacts =  [
         phone:"+91 9450988320",
         email:"Ankit012@gmail.com" 
 
+    },
+    {
+        name:"Ankur Yadav",
+        image:"",
+        phone:"+91 9118666332",
+        email:"ankur023@gmail.com"
     }
 ]
 
