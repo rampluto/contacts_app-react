@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./card";
-import Contacts from "../contacts"
-
+import Contacts from "../contacts";
 function App(){
     return <div>
     <h1>My Contacts</h1>
