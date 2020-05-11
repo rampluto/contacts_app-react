@@ -3,6 +3,8 @@
     border: 2px;
     border-radius: 10px;
     width: 240px;
+    height: 180px;
+    margin: 10px;
     float: left;
     padding: 10px;
 }

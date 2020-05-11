@@ -1,13 +1,20 @@
 import React from "react";
 import Card from "./card";
+import Contacts from "../contacts"
 
 function App(){
     return <div>
     <h1>My Contacts</h1>
-    <Card name="Ram Janam"
-          image="https://i.pinimg.com/236x/04/56/86/0456869906dfa906c494b2b63aa67f2a.jpg"
-          phone="+91 2341234567" 
-          email="ram@gmail.com" 
+    <Card name=  {Contacts[0].name}
+          image= {Contacts[0].image}
+          phone= {Contacts[0].phone}
+          email= {Contacts[0].email}
+     />
+
+    <Card name=  {Contacts[1].name}
+          image= {Contacts[1].image}
+          phone= {Contacts[1].phone}
+          email= {Contacts[1].email}
      />
   </div>
 }
