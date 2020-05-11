@@ -1,21 +1,31 @@
+h1{
+    text-align: center;
+}
 .card {
     background-color: aquamarine;
     border: 2px;
     border-radius: 10px;
     width: 240px;
     height: 180px;
-    margin: 10px;
-    float: left;
+    margin: 20px;
     padding: 10px;
+    margin-left: 410px;
 }
 
 .card img {
-    border: 4px solid #fff;
-    border-radius:100px;
-    width: 70px;
+    display: inline;
     position: relative;
     left: 150px;
     bottom: 45px;
+}
+
+.circle_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #fff;
+    border-radius:100px;
+    width: 70px;
 }
 
 .info {
