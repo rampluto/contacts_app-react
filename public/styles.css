@@ -10,6 +10,7 @@ h1{
     margin: 20px;
     padding: 10px;
     margin-left: 410px;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 
 .card img {
